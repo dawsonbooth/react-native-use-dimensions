@@ -1,0 +1,55 @@
+{
+    "name": "react-native-use-dimensions",
+    "version": "1.0.0",
+    "description": "React hooks for dimensions of screen, window, or both",
+    "license": "MIT",
+    "repository": "dawsonbooth/react-native-use-dimensions",
+    "author": {
+        "name": "Dawson Booth",
+        "email": "npmjs@dawsonbooth.com",
+        "url": "https://github.com/dawsonbooth"
+    },
+    "engines": {
+        "node": ">=6"
+    },
+    "files": [
+        "dist"
+    ],
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\"",
+        "test": "jest",
+        "clean": "rimraf dist",
+        "prebuild": "yarn run clean",
+        "build": "rollup -c"
+    },
+    "jest": {
+        "testRegex": "/test/.*",
+        "testEnvironment": "node"
+    },
+    "dependencies": {
+        "react": "^16.12.0",
+        "react-native": "^0.61.5"
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.18",
+        "@types/node": "^12.7.2",
+        "@types/react": "^16.9.17",
+        "@types/react-native": "^0.60.27",
+        "@typescript-eslint/eslint-plugin": "^2.0.0",
+        "@typescript-eslint/parser": "^2.0.0",
+        "eslint": "^6.2.2",
+        "eslint-config-prettier": "^6.1.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "jest": "^24.9.0",
+        "prettier": "1.18.2",
+        "rimraf": "^3.0.0",
+        "rollup": "^1.21.4",
+        "rollup-plugin-node-builtins": "^2.1.2",
+        "rollup-plugin-typescript2": "^0.24.2",
+        "ts-jest": "^24.0.2",
+        "typescript": "^3.6.2"
+    }
+}
