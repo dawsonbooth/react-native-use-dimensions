@@ -5,8 +5,10 @@
     "license": "MIT",
     "repository": "dawsonbooth/react-native-use-dimensions",
     "keywords": [
+        "frontend",
         "react",
         "react-native",
+        "expo",
         "typescript",
         "hooks",
         "dimensions",
