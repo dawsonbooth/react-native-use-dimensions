@@ -4,6 +4,15 @@
     "description": "This Node.js package is a collection of React hooks for using the dimensions of the screen, window, or both.",
     "license": "MIT",
     "repository": "dawsonbooth/react-native-use-dimensions",
+    "keywords": [
+        "react",
+        "react-native",
+        "typescript",
+        "hooks",
+        "dimensions",
+        "ios",
+        "android"
+    ],
     "author": {
         "name": "Dawson Booth",
         "email": "npmjs@dawsonbooth.com",
@@ -29,10 +38,7 @@
         "testRegex": "/test/.*",
         "testEnvironment": "node"
     },
-    "dependencies": {
-        "react": "^16.12.0",
-        "react-native": "^0.61.5"
-    },
+    "dependencies": {},
     "devDependencies": {
         "@types/jest": "^24.0.18",
         "@types/node": "^12.7.2",
@@ -51,5 +57,9 @@
         "rollup-plugin-typescript2": "^0.24.2",
         "ts-jest": "^24.0.2",
         "typescript": "^3.6.2"
+    },
+    "peerDependencies": {
+        "react": "^16.12.0",
+        "react-native": "^0.61.5"
     }
 }
