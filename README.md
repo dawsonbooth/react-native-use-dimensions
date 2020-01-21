@@ -2,6 +2,7 @@
 
 [![npm version](http://img.shields.io/npm/v/react-native-use-dimensions.svg?style=flat)](https://npmjs.org/package/react-native-use-dimensions)
 [![downloads](http://img.shields.io/npm/dt/react-native-use-dimensions.svg?style=flat)](https://npmjs.org/package/react-native-use-dimensions)
+[![build status](https://github.com/dawsonbooth/react-native-use-dimensions/workflows/build/badge.svg)](https://github.com/dawsonbooth/react-native-use-dimensions/actions?workflow=build)
 [![license](https://img.shields.io/npm/l/react-native-use-dimensions.svg?style=flat)](https://github.com/dawsonbooth/react-native-use-dimensions/blob/master/LICENSE)
 
 # Description
