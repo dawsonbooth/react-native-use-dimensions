@@ -31,7 +31,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\"",
-        "test": "jest",
+        "test": "jest --passWithNoTests",
         "clean": "rimraf dist",
         "prebuild": "yarn run clean",
         "build": "rollup -c"
