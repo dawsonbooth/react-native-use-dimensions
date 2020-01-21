@@ -30,7 +30,7 @@
     "module": "dist/index.es.js",
     "types": "dist/index.d.ts",
     "scripts": {
-        "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\"",
+        "lint": "eslint \"src/**/*.ts\"",
         "test": "jest --passWithNoTests",
         "clean": "rimraf dist",
         "prebuild": "yarn run clean",
