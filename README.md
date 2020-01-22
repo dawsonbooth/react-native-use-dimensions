@@ -1,4 +1,4 @@
-<img src="docs/assets/logo.png" height=150>
+<img src="assets/logo.png" height=150>
 
 [![npm version](http://img.shields.io/npm/v/react-native-use-dimensions.svg?style=flat)](https://npmjs.org/package/react-native-use-dimensions)
 [![downloads](http://img.shields.io/npm/dt/react-native-use-dimensions.svg?style=flat)](https://npmjs.org/package/react-native-use-dimensions)
@@ -18,6 +18,8 @@ npm install react-native-use-dimensions
 ```
 
 # Usage
+
+Check out the examples below or [check out the docs](https://dawsonbooth.github.io/react-native-use-dimensions/).
 
 The package comes with three hooks:
 
