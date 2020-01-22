@@ -61,8 +61,8 @@ const BothDimensions = () => {
     const { screen, window } = useDimensions();
     return (
         <Text>
-            Screen: {width}x{height}
-            Window: {width}x{height}
+            Screen: {screen.width}x{screen.height}
+            Window: {window.width}x{window.height}
         </Text>
     );
 };
