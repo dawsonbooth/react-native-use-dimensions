@@ -1,14 +1,11 @@
 module.exports = {
     parser: "@typescript-eslint/parser",
-    extends: ["plugin:prettier/recommended", "prettier/@typescript-eslint"],
-    plugins: ["prettier"],
+    extends: ["prettier/@typescript-eslint"],
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: "module"
     },
-    rules: {
-        "prettier/prettier": "warn"
-    },
+    plugins: ["prettier"],
     env: {
         es6: true,
         node: true
