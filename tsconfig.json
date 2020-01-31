@@ -6,7 +6,7 @@
         "lib": ["es6"],
         "moduleResolution": "node",
         "outDir": "./dist",
-        "target": "es5", // Translate newer JS constructs down to an older version like es5
+        "target": "esnext",
         "esModuleInterop": true,
         "downlevelIteration": true
     },
