@@ -1,13 +1,18 @@
 {
     "compilerOptions": {
-        "declaration": true,
-        "declarationDir": "./dist",
-        // "module": "es5", // Specifies module system
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "jsx": "react",
         "lib": ["es6"],
         "moduleResolution": "node",
-        "outDir": "./dist",
+        "noEmit": true,
+        "strict": true,
         "target": "esnext",
-        "esModuleInterop": true,
+        "declaration": true,
+        // "module": "es5", // Specifies module system
+        "outDir": "./dist",
         "downlevelIteration": true
     },
     "include": ["./src/**/*"],
