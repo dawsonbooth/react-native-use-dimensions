@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
-import { Dimensions, ScaledSize } from "react-native";
+import { Dimensions, ScaledSize as RNScaledSize } from "react-native";
+
+type ScaledSize = RNScaledSize;
 
 /**
  * Use this hook to access the screen dimensions _only_.
