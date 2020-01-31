@@ -2,15 +2,14 @@
     "compilerOptions": {
         "declaration": true,
         "declarationDir": "./dist",
-        "module": "es6",
+        // "module": "es5", // Specifies module system
         "lib": ["es6"],
-        // "noImplicitAny": true,
         "moduleResolution": "node",
         "outDir": "./dist",
-        "target": "es5",
+        "target": "es5", // Translate newer JS constructs down to an older version like es5
         "esModuleInterop": true,
         "downlevelIteration": true
     },
-    "include": ["src/**/*", "types/*"],
-    "exclude": ["node_modules"]
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules", "**/__tests__/*"]
 }
