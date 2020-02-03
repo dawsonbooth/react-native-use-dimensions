@@ -39,6 +39,18 @@ const BothDimensions: React.FC = () => {
     );
 };
 
+test("Set up tests...", () => {
+    // For accurrate test times
+    const Fragment = () => (
+        <>
+            <ScreenDimensions />
+            <WindowDimensions />
+            <BothDimensions />
+        </>
+    );
+    renderer.create(<Fragment />).toJSON();
+});
+
 test("Screen", () => {
     const tree = renderer.create(<ScreenDimensions />).toJSON();
     expect(tree).toMatchInlineSnapshot(`
