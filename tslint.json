@@ -3,6 +3,7 @@
     "rules": {
         "forin": false,
         "max-classes-per-file": false,
-        "prefer-const": false
+        "prefer-const": false,
+        "no-implicit-dependencies": [true, "dev"]
     }
 }
