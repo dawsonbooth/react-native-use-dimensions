@@ -39,7 +39,7 @@ const BothDimensions: React.FC = () => {
     );
 };
 
-test("Set up tests...", () => {
+beforeAll(() => {
     // For accurrate test times
     const Fragment = () => (
         <>
