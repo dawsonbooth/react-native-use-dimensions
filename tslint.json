@@ -1,5 +1,5 @@
 {
-    "extends": ["tslint:latest", "tslint-config-prettier"],
+    "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
     "rules": {
         "forin": false,
         "max-classes-per-file": false,
