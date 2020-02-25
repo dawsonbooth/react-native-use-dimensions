@@ -13,24 +13,24 @@ type ScaledSize = RNScaledSize;
  * @returns Object containing screen dimensions
  */
 export const useScreenDimensions = (): ScaledSize => {
-    const [screen, setScreen] = useState(Dimensions.get("screen"));
+  const [screen, setScreen] = useState(Dimensions.get("screen"));
 
-    useEffect(() => {
-        const onChange = (result: {
-            window: ScaledSize;
-            screen: ScaledSize;
-        }): void => {
-            setScreen(result.screen);
-        };
-
-        Dimensions.addEventListener("change", onChange);
-
-        return () => Dimensions.removeEventListener("change", onChange);
-    });
-
-    return {
-        ...screen
+  useEffect(() => {
+    const onChange = (result: {
+      window: ScaledSize;
+      screen: ScaledSize;
+    }): void => {
+      setScreen(result.screen);
     };
+
+    Dimensions.addEventListener("change", onChange);
+
+    return (): void => Dimensions.removeEventListener("change", onChange);
+  });
+
+  return {
+    ...screen
+  };
 };
 
 /**
@@ -45,24 +45,24 @@ export const useScreenDimensions = (): ScaledSize => {
  * @returns Object containing window dimensions
  */
 export const useWindowDimensions = (): ScaledSize => {
-    const [window, setWindow] = useState(Dimensions.get("window"));
+  const [window, setWindow] = useState(Dimensions.get("window"));
 
-    useEffect(() => {
-        const onChange = (result: {
-            window: ScaledSize;
-            screen: ScaledSize;
-        }): void => {
-            setWindow(result.window);
-        };
-
-        Dimensions.addEventListener("change", onChange);
-
-        return () => Dimensions.removeEventListener("change", onChange);
-    });
-
-    return {
-        ...window
+  useEffect(() => {
+    const onChange = (result: {
+      window: ScaledSize;
+      screen: ScaledSize;
+    }): void => {
+      setWindow(result.window);
     };
+
+    Dimensions.addEventListener("change", onChange);
+
+    return (): void => Dimensions.removeEventListener("change", onChange);
+  });
+
+  return {
+    ...window
+  };
 };
 
 /**
@@ -75,27 +75,27 @@ export const useWindowDimensions = (): ScaledSize => {
  * @returns Object containing both screen and window dimensions.
  */
 const useDimensions = (): { screen: ScaledSize; window: ScaledSize } => {
-    const [screen, setScreen] = useState(Dimensions.get("screen"));
-    const [window, setWindow] = useState(Dimensions.get("window"));
+  const [screen, setScreen] = useState(Dimensions.get("screen"));
+  const [window, setWindow] = useState(Dimensions.get("window"));
 
-    useEffect(() => {
-        const onChange = (result: {
-            window: ScaledSize;
-            screen: ScaledSize;
-        }): void => {
-            setScreen(result.screen);
-            setWindow(result.window);
-        };
-
-        Dimensions.addEventListener("change", onChange);
-
-        return () => Dimensions.removeEventListener("change", onChange);
-    });
-
-    return {
-        screen,
-        window
+  useEffect(() => {
+    const onChange = (result: {
+      window: ScaledSize;
+      screen: ScaledSize;
+    }): void => {
+      setScreen(result.screen);
+      setWindow(result.window);
     };
+
+    Dimensions.addEventListener("change", onChange);
+
+    return (): void => Dimensions.removeEventListener("change", onChange);
+  });
+
+  return {
+    screen,
+    window
+  };
 };
 
 export default useDimensions;
