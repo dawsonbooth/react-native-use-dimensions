@@ -1,9 +1,0 @@
-{
-    "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
-    "rules": {
-        "forin": false,
-        "max-classes-per-file": false,
-        "prefer-const": false,
-        "no-implicit-dependencies": [true, "dev"]
-    }
-}

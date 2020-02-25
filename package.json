@@ -1,57 +1,61 @@
 {
-    "name": "react-native-use-dimensions",
-    "version": "1.2.5",
-    "description": "This Node.js package is a collection of React hooks for using the dimensions of the screen, window, or both.",
-    "license": "MIT",
-    "repository": "dawsonbooth/react-native-use-dimensions",
-    "keywords": [
-        "frontend",
-        "react",
-        "react-native",
-        "expo",
-        "typescript",
-        "hooks",
-        "dimensions",
-        "ios",
-        "android"
-    ],
-    "author": {
-        "name": "Dawson Booth",
-        "email": "npmjs@dawsonbooth.com",
-        "url": "https://github.com/dawsonbooth"
-    },
-    "engines": {
-        "node": ">=6"
-    },
-    "files": [
-        "dist/**/*"
-    ],
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-        "lint": "tslint -p tsconfig.json",
-        "test": "jest",
-        "build": "tsc",
-        "docs": "yarn typedoc",
-        "postdocs": "touch docs/.nojekyll"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "@types/jest": "^25.1.1",
-        "@types/react": "^16.9.18",
-        "@types/react-native": "^0.61.9",
-        "@types/react-test-renderer": "^16.9.2",
-        "jest": "^24.9.0",
-        "prettier": "1.19.1",
-        "react": "^16.12.0",
-        "react-native": "^0.61.5",
-        "react-test-renderer": "^16.12.0",
-        "ts-jest": "^24.0.2",
-        "tslint": "^6.0.0",
-        "tslint-config-prettier": "^1.18.0",
-        "tslint-react": "^4.2.0",
-        "typedoc": "^0.16.8",
-        "typescript": "^3.6.2"
-    },
-    "peerDependencies": {}
+  "name": "react-native-use-dimensions",
+  "version": "1.2.5",
+  "description": "This Node.js package is a collection of React hooks for using the dimensions of the screen, window, or both.",
+  "license": "MIT",
+  "repository": "dawsonbooth/react-native-use-dimensions",
+  "keywords": [
+    "frontend",
+    "react",
+    "react-native",
+    "expo",
+    "typescript",
+    "hooks",
+    "dimensions",
+    "ios",
+    "android"
+  ],
+  "author": {
+    "name": "Dawson Booth",
+    "email": "npmjs@dawsonbooth.com",
+    "url": "https://github.com/dawsonbooth"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint src/**/* --fix",
+    "test": "jest",
+    "build": "tsc",
+    "docs": "yarn typedoc",
+    "postdocs": "touch docs/.nojekyll"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.1.1",
+    "@types/react": "^16.9.18",
+    "@types/react-native": "^0.61.9",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-native": "^3.8.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-native": "^0.61.5",
+    "react-test-renderer": "^16.12.0",
+    "ts-jest": "^24.0.2",
+    "typedoc": "^0.16.8",
+    "typescript": "^3.6.2"
+  },
+  "peerDependencies": {}
 }
