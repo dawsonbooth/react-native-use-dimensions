@@ -69,7 +69,7 @@ export const useWindowDimensions = (): ScaledSize => {
  * Use this hook to access _both the screen and window dimensions_.
  *
  * ```js
- * const { screen, window } = useScreenDimensions();
+ * const { screen, window } = useDimensions();
  * ```
  *
  * @returns Object containing both screen and window dimensions.
