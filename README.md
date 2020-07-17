@@ -8,11 +8,11 @@
 
 </div>
 
-# Description
+## Description
 
 This Node.js package is a collection of React hooks for using the dimensions of the screen, window, or both.
 
-# Installation
+## Installation
 
 With [Node.js](https://nodejs.org/en/download/) installed, simply run the following command to add the package to your project.
 
@@ -20,7 +20,7 @@ With [Node.js](https://nodejs.org/en/download/) installed, simply run the follow
 npm install react-native-use-dimensions
 ```
 
-# Usage
+## Usage
 
 Check out the examples below or [check out the docs](https://dawsonbooth.github.io/react-native-use-dimensions/).
 
@@ -71,6 +71,6 @@ const BothDimensions = () => {
 };
 ```
 
-# License
+## License
 
 This software is released under the terms of [MIT license](LICENSE).
