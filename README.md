@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/img/logo.png" height=200 width=400 alt="react-native-use-dimensions">
+<img src="https://raw.githubusercontent.com/dawsonbooth/react-native-use-dimensions/master/assets/img/logo.svg" height=200 width=400 alt="react-native-use-dimensions">
 
 [![npm version](http://img.shields.io/npm/v/react-native-use-dimensions.svg?style=flat)](https://npmjs.org/package/react-native-use-dimensions)
 [![downloads](http://img.shields.io/npm/dt/react-native-use-dimensions.svg?style=flat)](https://npmjs.org/package/react-native-use-dimensions)
