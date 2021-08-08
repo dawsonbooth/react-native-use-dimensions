@@ -12,8 +12,6 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "prettier",
     "plugin:prettier/recommended",
-    "prettier/react",
-    "prettier/@typescript-eslint",
   ],
   plugins: ["react", "react-native"],
   parserOptions: {
