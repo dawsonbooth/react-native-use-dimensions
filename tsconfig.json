@@ -13,7 +13,8 @@
     // "module": "es5", // Specifies module system
     "rootDir": "./src",
     "outDir": "./dist",
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "skipLibCheck": true
   },
   "include": ["./src/**/*"]
 }

@@ -7,6 +7,8 @@ import useDimensions, {
 
 import renderer from "react-test-renderer";
 
+jest.useFakeTimers()
+
 const ScreenDimensions: React.FC = () => {
   const { height, width } = useScreenDimensions();
   const isLandscape = width > height;
