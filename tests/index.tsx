@@ -2,12 +2,12 @@ import React from "react";
 import { Text } from "react-native";
 import useDimensions, {
   useScreenDimensions,
-  useWindowDimensions
+  useWindowDimensions,
 } from "../src";
 
 import renderer from "react-test-renderer";
 
-jest.useFakeTimers()
+jest.useFakeTimers();
 
 const ScreenDimensions: React.FC = () => {
   const { height, width } = useScreenDimensions();

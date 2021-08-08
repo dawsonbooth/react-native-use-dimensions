@@ -35,7 +35,7 @@ import React from "react";
 import { Text } from "react-native";
 import useDimensions, {
   useScreenDimensions,
-  useWindowDimensions
+  useWindowDimensions,
 } from "react-native-use-dimensions";
 
 const ScreenDimensions = () => {

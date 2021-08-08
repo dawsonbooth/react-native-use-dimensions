@@ -29,7 +29,7 @@ export const useScreenDimensions = (): ScaledSize => {
   });
 
   return {
-    ...screen
+    ...screen,
   };
 };
 
@@ -61,7 +61,7 @@ export const useWindowDimensions = (): ScaledSize => {
   });
 
   return {
-    ...window
+    ...window,
   };
 };
 
@@ -94,7 +94,7 @@ const useDimensions = (): { screen: ScaledSize; window: ScaledSize } => {
 
   return {
     screen,
-    window
+    window,
   };
 };
 

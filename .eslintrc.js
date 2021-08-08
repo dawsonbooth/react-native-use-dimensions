@@ -4,7 +4,7 @@ module.exports = {
     es6: true,
     node: true,
     jest: true,
-    "react-native/react-native": true
+    "react-native/react-native": true,
   },
   extends: [
     "plugin:react-native/all",
@@ -13,20 +13,20 @@ module.exports = {
     "prettier",
     "plugin:prettier/recommended",
     "prettier/react",
-    "prettier/@typescript-eslint"
+    "prettier/@typescript-eslint",
   ],
   plugins: ["react", "react-native"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
-      impliedStrict: true
+      impliedStrict: true,
     },
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
-    sourceType: "module" // Allows for the use of imports
+    sourceType: "module", // Allows for the use of imports
   },
   settings: {
     react: {
-      version: "detect"
-    }
-  }
+      version: "detect",
+    },
+  },
 };
